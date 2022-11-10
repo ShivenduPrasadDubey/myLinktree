@@ -1,0 +1,123 @@
+body{
+  background-image: linear-gradient(#53b9ff,#ffffff);
+  position: relative;
+}
+.shiv{
+  height: 130px;
+}
+.top-cont{
+  margin-top: 70px;
+  text-align: center;
+}
+h2{
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 130%;
+  font-family: 'Lato', sans-serif;
+}
+h3{
+  color: #ffffff;
+  margin-top: 18px;
+  font-family: 'Lato', sans-serif;
+
+}
+.readMore{
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 30%;
+  width: 40%;
+  height: 7%;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 10px 10px black;
+  cursor: pointer;
+  position: absolute;
+}
+.loy{
+  cursor: pointer;
+}
+.thinkDigital{
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 30%;
+  width: 40%;
+  height: 7%;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  box-shadow: 10px 10px black;
+  position: absolute;
+}
+.btnimg {
+  position: absolute;
+  left: 20px;
+  top: 28px;
+  transform: translateY(-50%);
+}
+ion-icon {
+  font-size: 36px;
+}
+.dig{
+  height: 110%;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+  transform: translateY(-50%);
+}
+.links{
+  text-align: center;
+  margin-top: 180px;
+  height: 20px;
+}
+
+.logs1{
+  margin-right: 10px;
+}
+.logs2{
+  margin-left: 20px;
+  margin-right: 10px;
+
+}
+.logs3{
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.linktree{
+  margin-left: 45%;
+  margin-top: 5%;
+  height: 80px;
+}
+.text{
+  font-size: 1.3vw;
+  margin-left: 2%;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+.readMore:hover{
+  margin-top: 40px;
+  box-shadow: 5px 5px black;
+  margin-left: 31%;
+}
+.thinkDigital:hover{
+  margin-top: 105px;
+  margin-left: 31%;
+  box-shadow: 5px 5px black;
+}
+p{
+  margin-top: 80px;
+  font-size: 0;
+}
+@media screen and (max-width : 320px)
+{
+  div.text
+  {
+    font: 30px;
+  }
+}
+@media screen and (max-width : 1204px)
+{
+  div.text{
+    font: 60px;
+  }
+}
